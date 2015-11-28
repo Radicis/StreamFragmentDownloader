@@ -4,3 +4,5 @@
 *.flv
 *.avi
 *.mp4
+.gitignore
+.idea
