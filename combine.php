@@ -1,4 +1,7 @@
 <?php
+
+// Credit to https://github.com/K-S-V/Scripts/blob/master/AdobeHDS.php for this script
+
 define('AUDIO', 0x08);
 define('VIDEO', 0x09);
 define('SCRIPT_DATA', 0x12);
