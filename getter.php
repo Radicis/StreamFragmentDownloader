@@ -1,7 +1,7 @@
 <?php
 
-$baseFilename = "20151127_rteone-latelate-thelatelat_cl10498592_10498593_260_drm__1024k";
-$baseURL = 'http://cdn.rasset.ie/hds-vod/2015/1127/20151127_rteone-latelate-thelatelat_cl10498592_10498593_260_drm_/20151127_rteone-latelate-thelatelat_cl10498592_10498593_260_drm__512k.mp4';
+$resolution ='2048';  //512 default from the player but url accepts higher values after experimentation
+$baseURL = 'http://cdn.rasset.ie/hds-vod/2015/1127/20151127_rteone-latelate-thelatelat_cl10498592_10498593_260_drm_/20151127_rteone-latelate-thelatelat_cl10498592_10498593_260_drm__2048' .$resolution . 'k.mp4';
 
 $segment=1;  //Gotten from stream page by viewing network traffic.
 $fragments = 1810;  //Gotten from stream page by viewing network traffic and going to the end of the transmission
